@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgba(128, 128, 128, 0.795);
+}
+.main-wrapper .account-box
+{
+    width: 40%;
+    /* background-color: rgba(66, 66, 224, 0.616); */
+}
+.account-box 
+{
+	background-color: #fff;
+	border: none;
+	margin: 0 auto;
+	padding: 20px;
+	width: 400px;
+}
+.account-box label {
+	color: rgb(18, 27, 105);
+	font-size: 14px;
+	font-weight: normal;
+}
+.account-box .account-btn 
+{
+    background-color: rgb(18, 27, 105);
+    font-weight: 300;
+    animation-duration: 10s;
+}
+.account-box .account-btn:hover
+{
+    background-color: rgb(255, 255, 255);
+    color:rgb(18, 27, 105) ;
+    border: 1px solid rgb(18, 27, 105);
+    /* font-weight: bold; */
+}
+.account-box .form-group label input[type=checkbox]
+{
+    padding-left: 80px;
+}
